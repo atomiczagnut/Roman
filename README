@@ -1,0 +1,11 @@
+Roman - A ruby library for handling roman numerals
+
+by Colin Trierweiler
+
+Available under the GNU GPL
+
+A fairly simple implementation.  I'd recommend doing it yourself if you want a good exercise to improve your ruby skills.  However, for those of us who just want to deal with roman numerals for whatever reason, here ya go.  The constant RomNum stores the definition of roman numerals in a hash.  Fixnum gets a new method, toRoman, which spits out the roman numerals as a string.  Strings get three new methods: toArabic, for reading the values of roman numerals; modernize, for making modern roman numerals (i.e. IV instead of IIII); and ancientify, for undoing modernize.  I've also included destructive versions of modernize and ancientify because I like destructive methods.
+
+TODO:
+
+* Add a sentinel to the toArabic method
